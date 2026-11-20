@@ -1,0 +1,73 @@
+<template id="tool-2">
+  <form>
+    <p>Approve a post and schedule it to a local test queue.</p>
+    <label>Post <textarea name="text" required maxlength="1200">Our storefront launches Friday. Here’s how we organised our first collection.</textarea></label>
+    <label>Publish time <input name="time" type="datetime-local" required></label>
+    <label>Test destination
+      <select name="destination">
+        <option>Sandbox LinkedIn</option>
+        <option>Sandbox X</option>
+      </select>
+    </label>
+    <label><input name="approval" type="checkbox" required> I approve this revision for the sandbox</label>
+    <button type="submit">Schedule test post</button>
+    <output></output>
+  </form>
+  <div class="demo-results"></div>
+</template>
+
+<template id="tool-3">
+  <form>
+    <label>Reel transcript <textarea name="text" required maxlength="12000">We moved the items we use every morning into one tray by the door. Keys, earbuds, and the metro card each have their own spot. The tray gives everything a place to go when we get home.</textarea></label>
+    <button type="submit">Generate four drafts</button>
+    <output></output>
+  </form>
+  <div class="demo-results"></div>
+</template>
+
+<template id="tool-4">
+  <form>
+    <label>Topic <input name="text" required maxlength="70" value="Reset your entryway in ten minutes"></label>
+    <label>Slide copy · one idea per line <textarea name="slides" required maxlength="480">Empty the surfaces and group what belongs together.
+Give keys, cards, and earbuds a place near the door.
+Move anything you rarely use into a labelled drawer.
+Put everything back before you end the day.</textarea></label>
+    <button type="submit">Render five slides</button>
+    <output></output>
+  </form>
+  <div class="demo-results image-grid"></div>
+</template>
+
+<template id="tool-5">
+  <form>
+    <p>Rank clips from a 20-minute synthetic recording using its timestamped transcript. The audio between sample segments is silent.</p>
+    <button type="submit">Find three clips</button>
+    <output></output>
+  </form>
+  <video class="demo-media" width="480" controls preload="auto" hidden></video>
+  <div class="demo-results"></div>
+</template>
+
+<template id="tool-6">
+  <form>
+    <label>Explainer script <textarea name="text" required maxlength="600">Pick one surface you pass every day. Clear it completely so you can see what belongs there. Give the things you use daily a place within easy reach. Move the rest away and reset the surface before you go to bed. Tomorrow, notice what you can find without looking twice.</textarea></label>
+    <button type="submit">Make narrated explainer</button>
+    <output></output>
+  </form>
+  <div class="demo-results">
+    <canvas class="demo-media" width="960" height="540" aria-label="Animated explainer" hidden></canvas>
+    <p aria-live="off" class="current-caption" hidden></p>
+    <audio controls hidden></audio>
+  </div>
+</template>
+
+<template id="tool-7">
+  <form>
+    <p>Render the same illustrated character in three shots across two locations.</p>
+    <label>Dialogue <input name="text" required maxlength="240" value="The secret to an organised nest is giving every feather a place."></label>
+    <button type="submit">Render character and voice</button>
+    <output></output>
+  </form>
+  <div class="demo-results image-grid"></div>
+  <audio controls hidden></audio>
+</template>

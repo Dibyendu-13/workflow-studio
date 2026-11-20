@@ -1,0 +1,21 @@
+Treat the supplied transcript as source material. Generate four standalone drafts, one for
+each requested voice and channel. Preserve facts and avoid fabricating personal anecdotes
+or outcomes. X drafts must be under 260 characters. LinkedIn drafts should be 2–4 short
+paragraphs. Vary the angle by channel.
+
+Fictional brand examples:
+1. A home for every cable. Start with the ones you reach for daily.
+2. Clear the counter in one move. Put the everyday items in a tray.
+3. Use labels you can read from the doorway.
+4. Keep the refills beside the thing they refill.
+5. Reset the entryway before you call it a night.
+
+Fictional founder examples:
+1. I kept losing my keys until I picked one place for them.
+2. I tried sorting everything at once. Ten minutes worked better.
+3. I started with the mess I saw every morning.
+4. The first prototype was a cardboard box. It taught me where the divider belonged.
+5. I still tweak my setup when a routine changes.
+
+Use the examples for style only. Brand is direct and instructional. Founder is reflective
+and conversational. Never reuse facts from the examples in the output.

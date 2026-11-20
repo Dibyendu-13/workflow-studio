@@ -1,0 +1,66 @@
+[
+  {
+    "task_id": "approve_packaging",
+    "title": "Approve the packaging",
+    "owner": "Asha",
+    "due_date": "2026-12-01",
+    "goal_id": "launch_storefront",
+    "depends_on": [],
+    "source_excerpt": "Asha took responsibility for approving the packaging and committed to December 1, 2026.",
+    "review_notes": [],
+    "needs_review": false
+  },
+  {
+    "task_id": "photograph_products",
+    "title": "Photograph the products",
+    "owner": "Meera",
+    "due_date": "2026-12-04",
+    "goal_id": "launch_storefront",
+    "depends_on": [
+      "approve_packaging"
+    ],
+    "source_excerpt": "Meera said she can photograph the products by December 4, 2026, once Asha has approved the packaging.",
+    "review_notes": [],
+    "needs_review": false
+  },
+  {
+    "task_id": "add_storefront_photos",
+    "title": "Add the photos to the storefront",
+    "owner": "Ravi",
+    "due_date": "2026-12-07",
+    "goal_id": "launch_storefront",
+    "depends_on": [
+      "photograph_products"
+    ],
+    "source_excerpt": "Ravi will add the photos to the storefront by December 7, 2026. He needs Meera's photos first.",
+    "review_notes": [],
+    "needs_review": false
+  },
+  {
+    "task_id": "run_readiness_review",
+    "title": "Run the launch readiness review",
+    "owner": "Isha",
+    "due_date": "2026-12-10",
+    "goal_id": "launch_storefront",
+    "depends_on": [
+      "add_storefront_photos"
+    ],
+    "source_excerpt": "Isha will run the launch readiness review by December 10, 2026, after Ravi has added the photos to the storefront.",
+    "review_notes": [],
+    "needs_review": false
+  },
+  {
+    "task_id": "check_mobile_banner",
+    "title": "Check the mobile banner",
+    "owner": null,
+    "due_date": "2026-12-08",
+    "goal_id": "launch_storefront",
+    "depends_on": [],
+    "source_excerpt": "Someone from Design will also check the mobile banner by December 8, 2026. We didn't pick a person for that yet.",
+    "review_notes": [
+      "Design is responsible, and the individual owner is still to be assigned.",
+      "Owner needs confirmation."
+    ],
+    "needs_review": true
+  }
+]
